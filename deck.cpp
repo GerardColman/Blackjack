@@ -46,3 +46,13 @@ string Deck::toString() {
 int Deck::size() {
     return cardDeck.size();
 }
+
+Card Deck::drawGivenCard(string value, string suite) {
+    for(int i = 0;i<cardDeck.size();i++){
+        Card temp_card = cardDeck.at(i);
+        if(temp_card.getSuite() == suite || temp_card.getValue() == value){
+            return temp_card;
+        }
+    }
+
+}

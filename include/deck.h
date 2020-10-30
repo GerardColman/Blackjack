@@ -14,7 +14,7 @@ class Deck {
     public:
         Deck(); // fills deck
         Card drawRandCard(); // Draws a random card
-        Card drawGivenCard(int value, string suite); //Draws a given card
+        Card drawGivenCard(string value, string suite); //Draws a given card
         void addCard(Card);
         string toString();
         int size();
