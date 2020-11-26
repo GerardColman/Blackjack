@@ -5,13 +5,18 @@
 #ifndef BLACKJACK_PLAYER_H
 #define BLACKJACK_PLAYER_H
 #include <string>
+#include <vector>
+#include "card.h"
 
+using namespace std;
 class Player {
     private:
-        std::string name = "";
+        string name = "";
+        vector<Card> hand = {};
     public:
-        std::string getName();
-        Player();
+        void addToHand(Card newCard);
+        string getName();
+        Player(string name);
 };
 
 
