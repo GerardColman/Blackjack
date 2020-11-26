@@ -1,8 +1,14 @@
 #include <iostream>
 #include "deck.h"
+#include "player.h"
+
+using namespace std;
+
 
 
 int main() {
-    Deck deck;
-    cout << deck.toString();
+    bool won = false;
+    while(!won){
+
+    }
 }

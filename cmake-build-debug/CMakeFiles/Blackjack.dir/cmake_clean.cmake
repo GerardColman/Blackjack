@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Blackjack.dir/card.cpp.obj"
   "CMakeFiles/Blackjack.dir/deck.cpp.obj"
   "CMakeFiles/Blackjack.dir/main.cpp.obj"
+  "CMakeFiles/Blackjack.dir/player.cpp.obj"
   "libBlackjack.dll.a"
 )
 

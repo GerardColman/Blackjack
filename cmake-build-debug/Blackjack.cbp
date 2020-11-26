@@ -97,6 +97,12 @@
 		<Unit filename="D:/Projects/Blackjack/main.cpp">
 			<Option target="Blackjack"/>
 		</Unit>
+		<Unit filename="D:/Projects/Blackjack/player.cpp">
+			<Option target="Blackjack"/>
+		</Unit>
+		<Unit filename="D:/Projects/Blackjack/player.h">
+			<Option target="Blackjack"/>
+		</Unit>
 		<Unit filename="D:/Projects/Blackjack/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

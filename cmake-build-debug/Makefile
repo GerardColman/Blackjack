@@ -223,6 +223,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Blackjack.dir\build.make CMakeFiles/Blackjack.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+player.obj: player.cpp.obj
+
+.PHONY : player.obj
+
+# target to build an object file
+player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Blackjack.dir\build.make CMakeFiles/Blackjack.dir/player.cpp.obj
+.PHONY : player.cpp.obj
+
+player.i: player.cpp.i
+
+.PHONY : player.i
+
+# target to preprocess a source file
+player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Blackjack.dir\build.make CMakeFiles/Blackjack.dir/player.cpp.i
+.PHONY : player.cpp.i
+
+player.s: player.cpp.s
+
+.PHONY : player.s
+
+# target to generate assembly for a file
+player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Blackjack.dir\build.make CMakeFiles/Blackjack.dir/player.cpp.s
+.PHONY : player.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -241,6 +268,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... player.obj
+	@echo ... player.i
+	@echo ... player.s
 .PHONY : help
 
 

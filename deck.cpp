@@ -4,6 +4,7 @@
 
 #include "deck.h"
 
+
 Deck::Deck() {
     for(int j = 0;j<4;j++) {
         string suite;

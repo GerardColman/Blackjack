@@ -18,6 +18,7 @@ class Deck {
         void addCard(Card);
         string toString();
         int size();
+        Card deal();
 };
 
 

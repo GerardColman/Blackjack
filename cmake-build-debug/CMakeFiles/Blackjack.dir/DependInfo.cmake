@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Projects/Blackjack/card.cpp" "D:/Projects/Blackjack/cmake-build-debug/CMakeFiles/Blackjack.dir/card.cpp.obj"
   "D:/Projects/Blackjack/deck.cpp" "D:/Projects/Blackjack/cmake-build-debug/CMakeFiles/Blackjack.dir/deck.cpp.obj"
   "D:/Projects/Blackjack/main.cpp" "D:/Projects/Blackjack/cmake-build-debug/CMakeFiles/Blackjack.dir/main.cpp.obj"
+  "D:/Projects/Blackjack/player.cpp" "D:/Projects/Blackjack/cmake-build-debug/CMakeFiles/Blackjack.dir/player.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
